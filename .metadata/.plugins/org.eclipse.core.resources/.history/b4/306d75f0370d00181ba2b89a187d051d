@@ -1,8 +1,0 @@
-
-
-object payroll extends App {
-  
-}
-
-
-class Employee(val fName: String, val lName: String, var salaried = 'n')

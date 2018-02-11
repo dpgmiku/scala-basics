@@ -1,8 +1,0 @@
-object arrayExample {
-var nums  = new Array[Any](10)                    //> nums  : Array[Any] = Array(null, null, null, null, null, null, null, null, nu
-                                                  //| ll, null)
-
-var furniture = Array("chair", "sofa", "table", "bed")
-                                                  //> furniture  : Array[String] = Array(chair, sofa, table, bed)
-for (f<- furniture)println(f)
-}

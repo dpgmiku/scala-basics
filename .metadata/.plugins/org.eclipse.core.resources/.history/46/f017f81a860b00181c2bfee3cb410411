@@ -1,6 +1,0 @@
-object decisions {
-
-var today = "tuesday"                             //> today  : String = Monday
-
-if (today == "Monday") println("It might rain")   //> It might rain
-}

@@ -1,6 +1,0 @@
-object arrayExample {
-var nums  = new Array[Any](10)
-
-var furniture = Array("chair", "sofa", "table", "bed")
-
-}

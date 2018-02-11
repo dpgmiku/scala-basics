@@ -1,9 +1,0 @@
-
-
-object caseClassExample extends App {
-  
-  val alice = Person (
-  
-}
-
-case class Person(fName: String, age:Int)

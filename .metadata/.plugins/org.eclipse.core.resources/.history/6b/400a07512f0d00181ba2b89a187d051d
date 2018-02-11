@@ -1,7 +1,0 @@
-object mapExamples {
-var groceries = Map(1 -> "milk", 2 -> "bread", 3 -> "juice", 4 -> "eggs")
-groceries = groceries +(5 -> "hashbrowns")
-                                                  //> groceries  : scala.collection.immutable.Map[Int,String] = Map(1 -> milk, 2 ->
-                                                  //|  bread, 3 -> juice, 4 -> eggs)
-
-}

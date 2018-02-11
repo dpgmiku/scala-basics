@@ -1,3 +1,0 @@
-object tupleExamples {
-val v = (1,1.4, "Hello")
-}
