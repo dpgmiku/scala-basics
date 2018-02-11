@@ -1,0 +1,24 @@
+object mapExamples {
+var groceries = Map(1 -> "milk", 2 -> "bread", 3 -> "juice", 4 -> "eggs")
+                                                  //> groceries  : scala.collection.immutable.Map[Int,String] = Map(1 -> milk, 2 ->
+                                                  //|  bread, 3 -> juice, 4 -> eggs)
+groceries = groceries +(5 -> "hashbrowns")
+groceries.get(3)                                  //> res0: Option[String] = Some(juice)
+groceries(3)                                      //> res1: String = juice
+groceries(6, "no match")                          //> java.util.NoSuchElementException: key not found: 6
+                                                  //| 	at scala.collection.MapLike.default(MapLike.scala:232)
+                                                  //| 	at scala.collection.MapLike.default$(MapLike.scala:231)
+                                                  //| 	at scala.collection.AbstractMap.default(Map.scala:59)
+                                                  //| 	at scala.collection.MapLike.apply(MapLike.scala:141)
+                                                  //| 	at scala.collection.MapLike.apply$(MapLike.scala:140)
+                                                  //| 	at scala.collection.AbstractMap.apply(Map.scala:59)
+                                                  //| 	at mapExamples$.$anonfun$main$1(mapExamples.scala:6)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$anonfun$$ex
+                                                  //| ecute$1(WorksheetSupport.scala:76)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
+                                                  //| orksheetSupport.scala:65)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
+                                                  //| ksheetSupport.scala:76)
+                                                  //| 	at mapExamples$.main(mapExamples.scala:1)
+                                                  //| 	at mapExamples.main(mapExamples.scala)
+}

@@ -1,0 +1,8 @@
+object tupleExamples {
+val v = (1,1.4, "Hello")                          //> v  : (Int, Double, String) = (1,1.4,Hello)
+val x = v._3                                      //> x  : String = Hello
+val(first, second, third) = v                     //> first  : Int = 1
+val symbols = Array("<","-",">")
+                                                  //| second  : Double = 1.4
+                                                  //| third  : String = Hello
+}

@@ -1,0 +1,3 @@
+object loopPractice {
+  println("Welcome to the Scala worksheet")
+}

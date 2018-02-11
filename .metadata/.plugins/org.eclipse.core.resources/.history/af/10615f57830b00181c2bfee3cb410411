@@ -1,0 +1,27 @@
+object functionExamples {
+
+def abs(x: Int)  = if(x < 0) -x else x
+
+abs(-5)
+
+
+def fac(n: Int) = {
+var r  = 1
+for(i <- 1 to n)
+r = r*i
+r
+}
+
+fac(5)
+
+
+def fac2(n: Int):Int = if (n<=0) 1 else n * fac2(n-1)
+
+fac2(5)
+
+def printName(firstName: String, lastName: String) {
+println(firstName + "" + lastName)
+}
+
+printName(lastName = "Fischer", firstName= "Peggy")
+}

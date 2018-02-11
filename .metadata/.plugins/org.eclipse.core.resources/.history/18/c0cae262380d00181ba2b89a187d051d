@@ -1,0 +1,15 @@
+
+
+object payroll extends App {
+var e1 = new Employee("Sam", "Paulson")
+var e2 = new Employee("Doris", "Jones", salaried = 's')
+  
+}
+
+
+class Employee(val fName: String, val lName: String, var salaried: Char = 'n'){
+  
+  
+  override def toString = "Employee name: " + fName + " " + lName + (if (salaried == 'n') "\nHourly Employee"
+  else "\nSalarier Employee"
+}

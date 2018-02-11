@@ -1,0 +1,6 @@
+object decisions {
+
+var today = "tuesday"                             //> today  : String = tuesday
+
+if (today == "Monday") println("It might rain")
+}

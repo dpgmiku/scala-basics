@@ -1,0 +1,6 @@
+object functionExamples {
+
+def abs(x: Int)  = if(x < 0) -x else x
+
+abs(-5)
+}

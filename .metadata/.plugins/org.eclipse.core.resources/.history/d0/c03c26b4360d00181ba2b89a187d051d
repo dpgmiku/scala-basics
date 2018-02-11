@@ -1,0 +1,19 @@
+
+
+object Average extends App {
+  
+  val array = Array(1,2,3,4,5,0,7,8,9,10)
+  
+  def min()= {
+  var minimum = array.head
+for (n<-array.tail) n < minimum match{
+case true => minimum = n
+case false => minimum = minimum
+}
+ minimum 
+  }
+  
+ println(min())
+  
+  
+}

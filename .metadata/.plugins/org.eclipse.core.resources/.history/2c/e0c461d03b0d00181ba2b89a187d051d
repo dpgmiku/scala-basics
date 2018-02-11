@@ -1,0 +1,20 @@
+
+
+object ChallengeFour extends App {
+
+  
+}
+
+
+class BankAccount(val name: String, val balance: Double, var accountType: Char = 'c'){
+  
+  override def toString = "Bank Account name: " + name  + "balance: " + balance + "\nbankAccountId: " + bankAccountID + (if (accountType == 'c') "\nChecking Account"
+  else "\nSavings Account")+("\n" + "="*20)
+}
+
+object BankAccount{
+var accountID = 4999
+  def newEEID() = {accountID +=1
+    accountID
+  }  
+}

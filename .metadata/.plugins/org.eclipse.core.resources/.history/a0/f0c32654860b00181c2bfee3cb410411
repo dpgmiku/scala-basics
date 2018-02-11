@@ -1,0 +1,11 @@
+object decisions {
+
+var today = "tuesday"
+
+if (today == "Monday") println("It might rain")
+else println("It is not monday, so it will not rain")
+
+var b = 0
+var a = if(b < 0) -1 else 1
+println(a)
+}

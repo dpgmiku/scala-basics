@@ -1,0 +1,12 @@
+object decisions {
+
+var today = "tuesday"                             //> today  : String = tuesday
+
+if (today == "Monday") println("It might rain")
+else println("It is not monday, so it will not rain")
+                                                  //> It is not monday, so it will not rain
+
+var b = 5                                         //> b  : Int = 5
+var a = if(b < 0) -1 else 1                       //> a  : Int = 1
+println(a)                                        //> 1
+}

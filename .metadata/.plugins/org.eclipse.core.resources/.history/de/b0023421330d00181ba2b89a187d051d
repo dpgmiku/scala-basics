@@ -1,0 +1,6 @@
+object listExamples {
+var l = List(3.0,5,'a')                           //> l  : List[Double] = List(3.0, 5.0, 97.0)
+var l2 = 1::2::3::5::6::Nil                       //> l2  : List[Int] = List(1, 2, 3, 5, 6)
+var l3 = List.range(10,20)                        //> l3  : List[Int] = List(10, 11, 12, 13, 14, 15, 16, 17, 18, 19)
+
+}

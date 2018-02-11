@@ -1,0 +1,13 @@
+
+
+object patternMatching extends App {
+  def greekAlphabet(letter:Char) = {
+    letter match {
+      case 'a' | 'A' => "Alpha"
+      case 'b' | 'B' => "Beta"
+      case _ => println("You entered an invalid character")
+    }
+    
+  }
+  println("The greek letter for A is " + greekAlphabet('C'))
+}

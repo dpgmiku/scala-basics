@@ -1,0 +1,9 @@
+
+import io.Source._
+
+object errorHandling extends App {
+  
+ for (line <- fromFile("noFile.txt").getLines()){
+   println(line.toLowerCase())
+ }
+}
